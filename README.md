@@ -16,13 +16,13 @@ AlexanderAndrade.Net Repository
 
 - [🧾 Project requirements.](docs/00-Requirements%20Specification.pdf)
 - [🧾 Test project plan.](docs/01_TEST_PLAN.md)
-- [🧾 Test project cases](https://github.com/AlexAndradeSan/blankfactor/raw/main/docs/02_TEST_CASES.xlsx).
+- [🧾 Test project cases](https://github.com/AlexAndradeSan/blankfactor/blob/main/docs/02_TEST_CASES.xlsx).
 
 ### Automation project
 
 - [🤖 Automation project setup.](docs/03_AUTOMATION_SETUP.md)
 - [🐞 Sonarqube report](docs/04-sonarqube-report.png)
-- [📊 Serenity BDD execution report](https://htmlpreview.github.io/?https://github.com/AlexAndradeSan/blankfactor/raw/main/target/site/serenity/index.html).
+- [📊 Serenity BDD execution report](https://htmlpreview.github.io/?https://github.com/AlexAndradeSan/blankfactor/blob/main/target/site/serenity/index.html).
 
 
 ## Contributing
