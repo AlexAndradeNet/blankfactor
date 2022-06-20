@@ -19,7 +19,7 @@ AlexanderAndrade.Net Repository
 - [Want to learn more?](#want-to-learn-more)
 
 
-## Prerequisites
+## Prerequisites<a name="#prerequisites"></a>
 
 You will need the following things properly installed on your computer:
 
@@ -28,13 +28,14 @@ You will need the following things properly installed on your computer:
 * [Gradle](https://gradle.org/install/)
 
 
-## Installation
+## Installation<a name="#installation"></a>
 
 We use Gradle, a cross-platform build automation tool that help with our full
 development flow.
 
+## Quickstart<a name="#quickstart"></a>
 
-## Executing the tests
+### Executing the tests
 
 ```bash
 ./gradlew clean test
@@ -46,16 +47,16 @@ The parameter **-Denvironment** can to take values like:
    - stg
    - pro
 
-### Execution report
+#### Execution report
 
-#### Report with screenshots (Business friendly)
+##### Report with screenshots (Business friendly)
 
-Serenity BDD offers an report in [Serenity BDD Report](../target/site/serenity/index.html).
+Serenity BDD offers an report in <a href="../target/site/serenity/index.html" target="_blank">Serenity BDD execution report</a>.
 ```
 {project directory}/target/site/serenity/index.html
 ```
 
-#### Report with technical Information
+##### Report with technical Information
 
 Gradle export a report in:
 
@@ -63,7 +64,7 @@ Gradle export a report in:
 {project directory}/build/reports/tests/test/classes/net.alexanderandrade.ui.features.RunnerTest.html
 ```
 
-### Project not run fine
+#### Project not run fine
 
 If the execution of the project ends prematurely well but without an apparent 
 execution. 
@@ -73,7 +74,7 @@ rm -rf ~/.gradle/caches/
 ./gradlew --stop
 ```
 
-## Contributing
+## Contributing<a name="#contributing"></a>
 
 If you find this repo useful here's how you can help:
 
@@ -81,7 +82,7 @@ If you find this repo useful here's how you can help:
 2. Wait for a Coronita :beer: you deserve it.
 
 
-## Want to learn more?
+## Want to learn more?<a name="#want-to-learn-more"></a>
 
 For more information about Serenity BDD, you can read the [**Serenity BDD Book**](https://serenity-bdd.github.io/theserenitybook/latest/index.html), the official online Serenity documentation source. Other sources include:
 * **[Byte-sized Serenity BDD](https://www.youtube.com/channel/UCav6-dPEUiLbnu-rgpy7_bw/featured)** - tips and tricks about Serenity BDD
