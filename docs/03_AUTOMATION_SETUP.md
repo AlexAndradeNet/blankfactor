@@ -51,7 +51,7 @@ The parameter **-Denvironment** can to take values like:
 
 ##### Report with screenshots (Business friendly)
 
-Serenity BDD offers an report in <a href="https://github.com/AlexAndradeSan/blankfactor/target/site/serenity/index.html" target="_blank">Serenity BDD execution report</a>.
+Serenity BDD offers an report in [Serenity BDD execution report](https://htmlpreview.github.io/?https://github.com/AlexAndradeSan/blankfactor/raw/main/target/site/serenity/index.html)..
 ```
 {project directory}/target/site/serenity/index.html
 ```
