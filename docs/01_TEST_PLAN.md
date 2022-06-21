@@ -50,6 +50,10 @@ Version: 1.0
 
 [5.5. Metrics](#_Toc106353868)
 
+[5.5.1. Incidents management and classification](#_Toc1063538681)
+
+[5.5.1.1. Information that each bug should have](#_Toc1063538682)
+
 [5.6. Test environment requirements](#_Toc106353869)
 
 [5.6.1. Test environment](#_Toc106353870)
@@ -208,6 +212,43 @@ The following metrics will be collected during test execution:
 - Number of incidents by category.
 - Number of test cases re-executed.
 - Number of resolved incidents by category.
+
+### 5.5.1. Incidents management and classification<a name="#_Toc1063538681"></a>
+
+The following is the process of handling bugs or errors in Jira, there are two 
+types of bugs, Story Bugs and Bugs, the differences are highlighted below:
+* Story Bugs: These are bugs directly related to the functionality of the story, that is, they impact the proper functioning of some functionality. These bugs are created during the sprint and are created as subtasks of the parent User Story.
+* Bugs: These are bugs directly related to functionality that has already been tested or completed, bugs in production or global bugs that are not part of any User Story, these can be created during the sprint and are generally created by errors in the production environment.
+
+#### 5.5.1.1. Information that each bug should have<a name="#_Toc1063538682"></a>
+
+At the time of creating any bug, be it a bug or a story bug, the following information must be included:
+* Summary: It is the title of the bug; it must be telling so that anyone understands where the bug occurs.
+* Description: Detailed information must be included to reproduce the error, this information includes:
+  * Steps to reproduce the bug: A series of steps required to reproduce the bug
+  * Expected Result: Result of the expected behavior based on the
+  functional specifications, visual proposals, etc.
+  * Result obtained: Description of the current operation of the system
+  * Image or video attached: All bugs must have an image or video that
+  show the existence of the bug.
+* Environment: Environment where the bug was found, the options are: Local, Development, Staging and Production
+* Severity: Impact caused by the bug in the application, chosen from the following options:
+  * Blockers:
+    * Functional: It is a defect that prevents the user from carrying out any functionality, environments, services or databases that are down or any functionality, page or service that prevents the user from using the system correctly. No User Story should be closed with a bug of this type open.
+    * Business: It is a defect that affects areas with a potential impact at a high level.
+    * No User Story should be closed with a bug of this type open.
+  * High:
+    * Functional: The error results from severely impaired functionality, there may be a quick solution to the problem, but the use of the functionality is not satisfactory.
+    * Business: The bug affects an area that can potentially drive brand revenue, but the level of impact may not be high.
+    * No User Story should be closed with a bug of this type open.
+  * Medium:
+    * Functional: The error is a failure in a non-critical area of the system, or it may be an obvious visual error.
+    * Business: Affects an area that may affect the system's brand, design or services.
+    * No User Story should be closed with a bug of this type open.
+  * Low:
+    * Functional: The error does not impact the overall functionality of the system; they are usually visual changes.
+    * Business: The error shows small visual or functional differences to those agreed.
+    * There may be closed User Stories with some of these open bug types.
 
 ## 5.6. Test environment requirements<a name="#_Toc106353869"></a>
 
