@@ -24,12 +24,12 @@ public class NewsletterTasks {
     throw new IllegalStateException("Utility class");
   }
 
-  public static Performable suscribeEmailToNewsletter ( String emailAdress) {
+  public static Performable suscribeEmailToNewsletter ( String emailAddress) {
 
     return Task.where(
       "{0} inscribe su correo {1} a la newsletter",
       WaitUntil.the( FIELD_NEWSLETTER_EMAIL, WebElementStateMatchers.isClickable() ),
-      Enter.theValue( emailAdress ).into( FIELD_NEWSLETTER_EMAIL ),
+      Enter.theValue( emailAddress ).into( FIELD_NEWSLETTER_EMAIL ),
       Click.on( BUTTON_NEWSLETTER_SUSCRIBE ),
       new WaitUntilAngularIsReady(),
       WaitUntil.the( LABEL_NEWSLETTER_SUCCESS, WebElementStateMatchers.isVisible() ),

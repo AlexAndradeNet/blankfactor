@@ -13,10 +13,8 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.serenitybdd.screenplay.waits.WaitUntilAngularIsReady;
-import org.openqa.selenium.By;
 
 import static net.alexanderandrade.ui.screenplay.ui.homepage.HomePage.*;
 

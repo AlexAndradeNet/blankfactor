@@ -11,11 +11,8 @@ package net.alexanderandrade.ui.screenplay.questions.homepage;
 import net.alexanderandrade.ui.screenplay.ui.homepage.NewsletterComponent;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.annotations.Subject;
-import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.waits.WaitUntil;
 
-import static net.alexanderandrade.ui.screenplay.ui.homepage.NewsletterComponent.LABEL_NEWSLETTER_SUCCESS;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class NewsletterQuestions {

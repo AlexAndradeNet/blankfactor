@@ -1,7 +1,8 @@
 ext{
     serenityCoreVersion = '2.3.12'
     cucumberVersion = '6.9.1'
-    junitVersion = '5.7.0'
+    junitVersion = '4.13.2'
+    JunitJupiterVersion = '5.7.2'
     aeonbitsVersion = '1.0.12'
     gsonVersion = '2.8.6'
     slf4jVersion = '1.7.30'
@@ -13,10 +14,11 @@ ext{
         cucumber: [
             java: "io.cucumber:cucumber-java:${cucumberVersion}",
             junit: "io.cucumber:cucumber-junit:${cucumberVersion}",
+            core: "io.cucumber:cucumber-core:${cucumberVersion}",
         ],
         slf4j: [
             api: "org.slf4j:slf4j-api:${slf4jVersion}",
-            simple: "org.slf4j:slf4j-simple:${slf4jVersion}"
+            simple: "org.slf4j:slf4j-simple:${slf4jVersion}",
         ],
         sonarqube: "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:${sonarScannerVersion}",
 
@@ -26,9 +28,13 @@ ext{
                 ensure: "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
                 screenplay: "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
                 screenplayWebdriver: "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
-                cucumber6: "net.serenity-bdd:serenity-cucumber6:${serenityCoreVersion}"
+                cucumber6: "net.serenity-bdd:serenity-cucumber6:${serenityCoreVersion}",
+                junit: "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
             ],
-            junit: "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+            junit: [
+                junit: "junit:junit:${junitVersion}",
+                vintage: "org.junit.vintage:junit-vintage-engine:${JunitJupiterVersion}",
+            ]
         ]
     ]
 }

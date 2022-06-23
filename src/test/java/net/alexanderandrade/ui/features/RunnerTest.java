@@ -9,13 +9,13 @@
 package net.alexanderandrade.ui.features;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 import org.junit.AfterClass;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
@@ -32,7 +32,7 @@ class RunnerTest {
   }
 
   @Test
-  void test() throws Exception {
+  void test() {
     assertTrue(true);
   }
 

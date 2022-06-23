@@ -4,7 +4,7 @@
 @author
 Característica: Ver página de autor
   Como usuario
-  Quiero que el sitio web me ofrezca la opción de clasificar los articulos por autor
+  Quiero que el sitio web me ofrezca la opción de clasificar los artículos por autor
   Para encontrar información relevante con un tópico en particular
 
     #=============================================================================

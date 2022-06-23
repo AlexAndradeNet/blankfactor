@@ -8,9 +8,9 @@ Version: 1.0
 
 **Historical review**
 
-| **Version** | **Author(s)** | **Description** | **Date** |
-| --- | --- | --- | --- |
-| 1.0 | Alexander Andrade | Document creation | June 2022 |
+| **Version** | **Author(s)**     | **Description**   | **Date**  |
+|-------------|-------------------|-------------------|-----------|
+| 1.0         | Alexander Andrade | Document creation | June 2022 |
 
 ## Table of Contents
 
@@ -138,10 +138,10 @@ Restrictions:
 
 ## 2.5. Stakeholders<a name="#_Toc106353860"></a>
 
-| **Stakeholder** | **Main responsibility** |
-| --- | --- |
-| Client | Approval of the Test Plan, Test Schedule, and deliverables. Realization of acceptance tests (UAT).The UATs will start with the Beta version of the product. |
-| Company management | Review and approval of the Test Plan and the Test Schedule. |
+| **Stakeholder**    | **Main responsibility**                                                                                                                                     |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Client             | Approval of the Test Plan, Test Schedule, and deliverables. Realization of acceptance tests (UAT).The UATs will start with the Beta version of the product. |
+| Company management | Review and approval of the Test Plan and the Test Schedule.                                                                                                 |
 
 
 # 3. Communication management<a name="#_Toc106353861"></a>
@@ -152,12 +152,12 @@ The process for internal and external communications, communication protocol and
 
 The main points of communication are identified below:
 
-| **Communication Point** | **Purpose** | **Frequency** | **Media** | **Responsible** | **Audience** |
-| --- | --- | --- | --- | --- | --- |
-| Kickoff meeting | Start | One time | Meeting | Project Leader/ QA Manager | Equipment |
-| Internal meetings | Condition | Weekly | Meeting | Project Leader/ QA Manager | Internal team |
-| Status Reports | Condition | Weekly | Document via email | Project Leader/ QA Manager | Equipment |
-| Milestones Report | Scope | As appropriate | Document via email | Project Leader/ QA Manager | Equipment |
+| **Communication Point** | **Purpose** | **Frequency**  | **Media**          | **Responsible**            | **Audience**  |
+|-------------------------|-------------|----------------|--------------------|----------------------------|---------------|
+| Kickoff meeting         | Start       | One time       | Meeting            | Project Leader/ QA Manager | Equipment     |
+| Internal meetings       | Condition   | Weekly         | Meeting            | Project Leader/ QA Manager | Internal team |
+| Status Reports          | Condition   | Weekly         | Document via email | Project Leader/ QA Manager | Equipment     |
+| Milestones Report       | Scope       | As appropriate | Document via email | Project Leader/ QA Manager | Equipment     |
 
 
 # 4. Risk management<a name="#_Toc106353862"></a>
@@ -166,10 +166,10 @@ The following table identifies the risks of the project, as well as determining 
 
 Impact and probability are determined on a scale of 1 to 5, with 5 being the highest.
 
-| **#** | **Risk** | **Probability (1-5)** | **Impact (1-5)** | **Severity (Chance x Impact)**|**Mitigation Plan** |
-| --- | --- |-----------------------|------------------| --- | --- |
-| 1 | Delays in the implementation of functionalities. | 2                     | 5                | 10 | Evaluate the progress of the development of the functionalities and re-plan according to the progress if necessary |
-| 2 | Users are not available for acceptance tests (UAT) | 1                     | 5                | 5 | Coordinate with the central offices the early selection of users |
+| **#** | **Risk**                                           | **Probability (1-5)** | **Impact (1-5)** | **Severity (Chance x Impact)** | **Mitigation Plan**                                                                                                |
+|-------|----------------------------------------------------|-----------------------|------------------|--------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| 1     | Delays in the implementation of functionalities.   | 2                     | 5                | 10                             | Evaluate the progress of the development of the functionalities and re-plan according to the progress if necessary |
+| 2     | Users are not available for acceptance tests (UAT) | 1                     | 5                | 5                              | Coordinate with the central offices the early selection of users                                                   |
 
 # 5. Test Strategy<a name="#_Toc106353863"></a>
 
@@ -256,17 +256,17 @@ At the time of creating any bug, be it a bug or a story bug, the following infor
 
 This section describes the tests stack.
 
-| **Browsers** | Chrome, Mozilla Firefox |
-| --- | --- |
-| **Operating systems** | MacOS |
+| **Browsers**          | Chrome, Mozilla Firefox |
+|-----------------------|-------------------------|
+| **Operating systems** | MacOS                   |
 
 ### 5.6.2. Testing Tools<a name="#_Toc106353871"></a>
 
-| **Tool** | **Function** |
-| --- | --- |
-| Test Link | Test management |
-| Selenium Web Driver | API to automate Web systems |
-| Serenity BDD | Execution and Report of automated tests |
+| **Tool**            | **Function**                            |
+|---------------------|-----------------------------------------|
+| Test Link           | Test management                         |
+| Selenium Web Driver | API to automate Web systems             |
+| Serenity BDD        | Execution and Report of automated tests |
 
 ## 5.7. Re-testing and Regression Testing<a name="#_Toc106353872"></a>
 
@@ -311,13 +311,13 @@ Detailed test activities and estimates can be found in the project&#39;s test ma
 
 ## 7.1. Roles, Activities and Responsibilities<a name="#_Toc106353879"></a>
 
-The RACI ( **R** esponsible- **A** ccountable- **C** onsulted- **I** nformed) matrix below illustrates which role is involved in which activity(s) and what the level of involvement is.
+The RACI (**R**esponsible- **A**ccountable- **C**onsulted- **I**nformed) matrix below illustrates which role is involved in which activity(s) and what the level of involvement is.
 
-| **Rol / Activity** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| QA Manager | R | A | A | A | A | A | R | R |
-| QA Analyst | C | R | R | R | R | R | A | C |
-| Automation Engineer | I | A | R | R | R | R | A | C |
+| **Rol / Activity**  | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** |
+|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|
+| QA Manager          | R     | A     | A     | A     | A     | A     | R     | R     |
+| QA Analyst          | C     | R     | R     | R     | R     | R     | A     | C     |
+| Automation Engineer | I     | A     | R     | R     | R     | R     | A     | C     |
 
 Activity numbers refer to the activity list above.
 

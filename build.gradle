@@ -12,7 +12,7 @@ buildscript {
 }
 
 plugins {
-    id "java-library"
+    id "java"
     id "org.sonarqube" version "3.3"
 }
 
@@ -36,7 +36,7 @@ apply plugin: SerenityPlugin
  */
 configurations.all {
     resolutionStrategy {
-        force "io.cucumber:cucumber-core:${cucumberVersion}"
+        force libs.cucumber.core
     }
 }
 dependencies {
@@ -54,7 +54,9 @@ dependencies {
         libs.test.serenity.screenplay,
         libs.test.serenity.screenplayWebdriver,
         libs.test.serenity.cucumber6,
-        libs.test.junit
+        libs.test.junit.junit
+
+    testRuntimeOnly libs.test.junit.vintage
 }
 
 test {
