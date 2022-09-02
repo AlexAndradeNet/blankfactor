@@ -3,7 +3,7 @@ charset = utf-8
 end_of_line = lf
 indent_size = 4
 indent_style = space
-insert_final_newline = false
+insert_final_newline = true
 max_line_length = 80
 tab_width = 4
 ij_continuation_indent_size = 8
@@ -16,6 +16,7 @@ ij_wrap_on_typing = false
 [*.feature]
 indent_size = 2
 ij_gherkin_keep_indents_on_empty_lines = false
+trim_trailing_whitespace = true
 
 [*.java]
 indent_size = 2
